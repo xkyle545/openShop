@@ -1,0 +1,559 @@
+@import 'fonts.css';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none !important;
+	list-style: none !important;
+}
+:root {
+	--lux-black: #313131;
+	--secondary-color: #FFFFFF;
+	--preLux-black: #0C0C0C;
+	--Noto-Bold: 'NotoSansJP-Bold';
+	--Noto-Light: 'NotoSansJP-Light';
+	--Noto-Medium: 'NotoSansJP-Medium';
+	--Noto-Regular: 'NotoSansJP-Regular';
+}
+
+body {
+	background: var(--secondary-color);
+}
+
+.container {
+	max-width: 1287px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+/* HEADER START */
+.header__prenav {
+	background: var(--lux-black);
+}
+.header__phone::before {
+	content: '\f879';
+	color: var(--secondary-color);
+	font-size: 14px;
+}
+.header__phone {
+	color: var(--secondary-color);
+}
+.header__man::before {
+	content: '\f406';
+	color: var(--secondary-color);
+	font-size: 14px;
+}
+
+.header__man {
+	color: var(--secondary-color);
+}
+.header__cart::before {
+	content: '\f07a';
+	color: var(--secondary-color);
+	font-size: 14px;
+}
+
+.header__cart {
+	color: var(--secondary-color);
+}
+.header__link {
+	margin-left: 5px;
+	margin-right: 30px;
+	color: var(--secondary-color);
+	font-family: var(--Noto-Light);
+	font-size: 14px;
+	line-height: 19px;
+}
+.header__link:hover {
+	color: var(--secondary-color);
+}
+.nav-link {
+	color: var(--secondary-color);
+	display: flex;
+}
+.nav-link:hover {
+	color: var(--secondary-color);
+}
+.dropdown-toggle::after {
+	margin: 10px;
+}
+.header__nav-logo::before {
+	content: url(../images/Logo.png);
+}
+.btn {
+	background: var(--lux-black);
+	color: var(--secondary-color);
+	width: 400px;
+	height: 48px;
+}
+.btn:hover {
+	background: var(--lux-black);
+	color: var(--secondary-color);
+	border-color:var(--lux-black);
+}
+.header__btn {
+	color: var(--secondary-color);
+	/* padding: 16px 17px 15px 40px; */
+}
+.header__btn:hover {
+	color: var(--lux-black);
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.header__toggler::before {
+    content: '\f0c9';
+	color: var(--secondary-color);
+}
+.header__toggler {
+    font-size: 30px;
+}
+.header__burger::before {
+	content: '\f0c9';
+	color: var(--lux-black);
+}
+.header__burger {
+	font-size: 30px;
+}
+.header__btn-icon::before {
+	content: '\f002';
+	color: var(--secondary-color);
+	margin-right: 8px;
+}
+.header__nav-link {
+	color: var(--lux-black);
+	margin-right: 25px;
+	font-family: var(--Noto-Light);
+	font-size: 18px;
+	line-height: 70px;
+}
+.header__nav-link:hover {
+	color: var(--lux-black);
+}
+.header__list {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.header__content-right {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	/* margin: auto 0; */
+}
+.header__content_right-title {
+	max-width: 520px;
+	width: 100%;
+	font-size: 48px;
+	color: var(--lux-black);
+	font-family: var(--Noto-Medium);
+}
+.header__content-right-link {
+	display: flex;
+	flex-wrap: wrap;
+	color: var(--secondary-color);
+	background: var(--lux-black);
+	text-transform: uppercase;
+	padding: 12px 46px 13px 46px;
+}
+.header__content-right-link:hover {
+	color: var(--secondary-color);
+}
+.carousel-control-next, .carousel-control-prev {
+	display: none;
+}
+.carousel-indicators [data-bs-target] {
+    background: var(--lux-black);
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+}
+
+.carousel-indicators [data-bs-target].active {
+    background: var(--lux-black);
+}
+.button-3 {
+	display: none;
+}
+.nav-link:focus, .nav-link:hover {
+	color: var(--secondary-color);
+
+	
+}
+/* HEADER END */
+
+
+/* MAIN START */
+.main__content {
+	margin: 0 auto;
+	margin-bottom: 15px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-gap: 30px;
+	margin-top: 50px;
+}
+.main__contents:nth-of-type(1) {
+	grid-column: span 2;
+	grid-row: span 2;
+}
+.main__contents:nth-of-type(2) {
+	grid-column: span 2;
+	grid-row: span 1;
+}
+.main__contents-img {
+	width: 100%;
+}
+.main__link {
+	background: var(--lux-black);
+	color: var(--secondary-color);
+	font-family: var(--Noto-Medium);
+	font-size: 20px;
+	line-height: 70px;
+	padding: 0 38px;
+}
+.main__link:hover {
+	color: var(--secondary-color);
+}
+.main__section-content {
+	margin-top: 50px;
+}
+.main__content-title {
+	font-size: 36px;
+	line-height: 49px;
+	font-family: var(--Noto-Medium);
+}
+
+.main__section-content-iPhone {
+	background: var(--lux-black);
+	color: var(--secondary-color);
+	font-family: var(--Noto-Medium);
+	padding: 5px 38px;
+	font-size: 14px;
+	line-height: 19px;
+	opacity: 0;
+	transition: 1s;
+}
+.main__section-content-iPhone:hover {
+	transition: 1s;
+}
+
+.main__contents-iPhone-1 {
+	margin-top: 19px;
+	transition: 1s;
+}
+.main__contents-iPhone-1:hover {
+	transition: 1s;
+}
+.main__contents-iPhone-1:hover .main__section-content-iPhone {
+	opacity: 1;
+	transition: 1s;
+}
+
+
+.main__section-content-iPhone:hover {
+	color: var(--secondary-color);
+}
+.main__iPhone-link {
+	display: flex;
+	justify-content: center;
+	transition: 1s;
+}
+.main__iPhone-link:hover {
+	transition: 1s;
+}
+.main__section-img-1 {
+	display: flex;
+	justify-content: center;
+}
+.main__section-img-1::before {
+	content: url(../images/cell-phone-img1-dark.png);
+}
+.main__section-img-2::before {
+	content: url(../images/cell-phone-img2.png);
+}
+.main__section-img-3::before {
+	content: url(../images/cell-phone-img3.png);
+}
+.main__section-img-4::before {
+	content: url(../images/cell-phone-img4.png);
+}
+.main__section-text {
+	font-size: 16px;
+	line-height: 22px;
+	font-family: var(--Noto-Bold);
+	margin-top: 7px;
+}
+.main__section-text-2 {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+p {
+	margin-bottom: 0;
+}
+
+
+.main__section-img-1-laptop::before {
+	content: url(../images/computera__laptop-img1.png);
+}
+.main__section-img-2-laptop::before {
+	content: url(../images/computera__laptop-img2.png);
+}
+.main__section-img-3-laptop::before {
+	content: url(../images/computera__laptop-img3.png);
+}
+.main__section-img-4-laptop::before {
+	content: url(../images/computera__laptop-img4.png);
+}
+.maim__section-items-right-logo::before {
+	content: url(../images/ps-logo.png);
+}
+.left-img::before {
+	content: url(../images/PlayStation\ 5\ Console-dark.png.);
+}
+
+.main__section-items {
+	display: flex;
+	justify-content: space-between;
+}
+.main__section-right {
+	color: var(--lux-black);
+	font-size: 48px;
+	line-height: 65px;
+
+}
+.img-section {
+	width: 100%;
+}
+.main__section-right-link {
+	background: var(--lux-black);
+	color: var(--secondary-color);
+	font-size: 18px;
+	line-height: 25px;
+	padding: 13px 40px;
+	font-family: var(--Noto-Light);
+}
+.main__section-right-link:hover {
+	color: var(--secondary-color);
+}
+.main__section-items-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.main__section-items-right-link {
+	margin-top: 50px;
+}
+
+
+.main__section-img-1-top-seller::before {
+	content: url(../images/top__seller-img1.png);
+}
+.main__section-img-2-top-seller::before {
+	content: url(../images/top__seller-img2.png);
+}
+.main__section-img-3-top-seller::before {
+	content: url(../images/top__seller-img3.png);
+}
+.main__section-img-4-top-seller::before {
+	content: url(../images/top__seller-img4.png);
+}
+
+.main__section-content-top-seller {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+.main__section-img-1-samsung::before {
+	content: url(../images/samsung__galaxy-img1.png);
+}
+.main__section-img-2-samsung::before {
+	content: url(../images/samsung__galaxy-img2.png);
+}
+.main__section-img-3-samsung::before {
+	content: url(../images/samsung__galaxy-img3.png);
+}
+.main__section-img-4-samsung::before {
+	content: url(../images/samsung__galaxy-img4.png);
+}
+
+
+.main__section-img-1-Xiaomi::before {
+	content: url(../images/xiaomi-img1.png);
+}
+.main__section-img-2-Xiaomi::before {
+	content: url(../images/xiaomi-img2.png);
+}
+.main__section-img-3-Xiaomi::before {
+	content: url(../images/xiaomi-img3.png);
+}
+.main__section-img-4-Xiaomi::before {
+	content: url(../images/xiaomi-img4.png);
+}
+
+
+.main__works-link::before {
+	content: url(../images/iphone11promax-vitrina-1.png);
+}
+.main__works-link-2::before {
+	content: url(../images/iphone-camera.png);
+}
+.main__works-link-3::before {
+	content: url(../images/iphone-display.png);
+}
+
+
+.main__works-img::before {
+	content: url(../images/iphone11promax-vitrina.png);
+}
+
+
+
+.main__price-link-1::before {
+	content: url(../images/iphone11promax-vitrina-1.png);
+}
+.main__price-link-2::before {
+	content: url(../images/iphone-camera.png);
+}
+.main__price-link-3::before {
+	content: url(../images/iphone-display.png);
+}
+
+
+
+.main__price-link {
+	list-style-type: disc !important;
+	font-size: 14px;
+	line-height: 25px;
+	font-family: var(--Noto-Medium);
+	
+}
+
+ol, ul {
+    padding-left: 1rem;
+}
+
+
+.main__price-name {
+	font-size: 30px;
+	line-height: 70px;
+	margin-bottom: 30px;
+	font-family: var(--Noto-Bold);
+}
+
+
+.main__pice-price {
+	font-size: 24px;
+	line-height: 70px;
+	font-family: var(--Noto-Bold);
+}
+
+.main__price-title {
+	font-size: 24px;
+	line-height: 20px;
+}
+
+
+.main__price-cart::before {
+	content: '\f07a';
+	color: var(--secondary-color);
+	font-size: 20px;
+	padding-right: 11px;
+}
+.main__price-cart:hover {
+	color: var(--secondary-color);
+}
+.main__price-cart {
+	background: var(--lux-black);
+	color: var(--secondary-color);
+	font-size: 20px;
+	line-height: 70px;
+	padding: 20.5px 54px;
+}
+
+
+.main__price-buy:hover {
+	color: var(--secondary-color);
+}
+.main__price-buy {
+	background: var(--lux-black);
+	color: var(--secondary-color);
+	font-size: 20px;
+	line-height: 70px;
+	padding: 20.5px 54px;
+	margin-left: 30px;
+}
+
+.box_img {
+	margin: 0 auto;
+}
+
+
+/* .accordion-button {
+	display: none;
+} */
+/* MAIN END */
+
+
+/* FOOTER START */
+
+.footer {
+	background: var(--lux-black);
+	height: 100%;
+}
+.footer-logo::before {
+	content: url(../images/Logo-dark.png);
+}
+.footer-logo {
+	padding-top: 30px;;
+}
+
+.form {
+	margin-top: 10px;
+}
+.form-text {
+	color: var(--secondary-color);
+	font-size: 18px;
+	line-height: 25px;
+	font-family: var(--Noto-Light);
+}
+.box-item {
+	padding-top: 50px;
+}
+.footer-link-logo-1::before {
+	content: url(../images/telegram.png);
+}
+.footer-link-logo-2::before {
+	content: url(../images/facebook.png);
+}
+.footer-link-logo-3::before {
+	content: url(../images/instagram.png);
+}
+
+
+.box__footer-navbar {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	/* margin-bottom: 45px; */
+}
+.footer__nav-link {
+	margin-left: 30px;
+	color: var(--secondary-color);
+	font-size: 18px;
+	line-height: 25px
+}
+.footer__nav-link:hover {
+	color: var(--secondary-color);
+}
+.footer__list {
+	flex-direction: row;
+}
+/* FOOTER END */

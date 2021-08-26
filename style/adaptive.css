@@ -1,0 +1,282 @@
+@media(prefers-color-scheme: dark) {
+	:root {
+		--lux-black: #313131;
+		--secondary-color: #FFFFFF;
+	}
+
+	body {
+		background-color: var(--lux-black);
+	}
+	.header__prenav {
+		background: black;
+	}
+	.header__nav-logo::before {
+		content: url(../images/Logo-dark.png);
+	}
+	.btn {
+		border-color: var(--secondary-color);
+	}
+	.btn:hover {
+		border-color: var(--secondary-color);
+	}
+	.header__input {
+		background: var(--lux-black);
+	}
+	.header__burger::before {
+		color: var(--secondary-color);
+	}
+	.header__btn-icon::before:hover {
+		color: var(--lux-black);
+	}
+	.header__nav-link {
+		color: var(--secondary-color);
+	}
+	.header__nav-link:hover {
+		color: var(--secondary-color);
+	}
+	.header__content_right-title {
+		color: var(--secondary-color);
+	}
+	.header__content-right-link {
+		border: 1px solid var(--secondary-color);
+	}
+	.carousel-indicators [data-bs-target].active {
+		background: var(--secondary-color);
+	}
+	.carousel-indicators [data-bs-target] {
+		background: wheat;
+	}
+	.main__link {
+		border: 1px solid var(--secondary-color);
+	}
+	.main__section-img-2::before {
+		content: url(../images/cell-phone-img2-dark.png);
+	}
+	.main__section-img-3::before {
+		content: url(../images/cell-phone-img3-dark.png);
+	}
+	.main__section-img-4::before {
+		content: url(../images/cell-phone-img4-dark.png);
+	}
+	.main__section-img-1::before{
+		content: url(../images/cell-phone-img1-dark.png);
+	}
+	.main__section-content-iPhone {
+		border: 1px solid var(--secondary-color);
+		margin-top: 50px;
+	}
+	.main__section-text {
+		color: var(--secondary-color);
+	}
+	.main__section-text-2 {
+		color: var(--secondary-color);
+	}
+	.main__section-img-1-laptop::before {
+		content: url(../images/computera__laptop-img1-darl.png);
+	}
+	.main__section-img-2-laptop::before {
+		content: url(../images/computera__laptop-img2-dark.png);
+	}
+	.main__section-img-3-laptop::before {
+		content: url(../images/computera__laptop-img3-darl.png);
+	}
+	.main__section-img-4-laptop::before {
+		content: url(../images/computera__laptop-img4-darl.png);
+	}
+	.main__content-title {
+		color: var(--secondary-color);
+	}
+	.maim__section-items-right-logo::before {
+		content: url(../images/ps-logo-dark.png);
+	}
+	.left-img::before {
+		content: url(../images/PlayStation\ 5\ Console-dark.png);
+	}
+	.main__section-right {
+		color: var(--secondary-color);
+	}
+	.main__section-right-link {
+		border: 1px solid var(--secondary-color);
+	}
+
+	.main__section-img-1-top-seller::before {
+		content: url(../images/top__seller-img1-dark.png);
+	}
+	.main__section-img-2-top-seller::before {
+		content: url(../images/top__seller-img2-dark.png);
+	}
+	.main__section-img-3-top-seller::before {
+		content: url(../images/top__seller-img3-dark.png);
+	}
+	.main__section-img-4-top-seller::before {
+		content: url(../images/top__seller-img4-dark.png);
+	}
+	.footer {
+		background: black;
+	}
+
+
+
+
+	.main__section-img-1-samsung::before {
+		content: url(../images/samsung__galaxy-img1-dark.png);
+	}
+	.main__section-img-2-samsung::before {
+		content: url(../images/samsung__galaxy-img2-dark.png);
+	}
+	.main__section-img-3-samsung::before {
+		content: url(../images/samsung__galaxy-img3-dark.png);
+	}
+	.main__section-img-4-samsung::before {
+		content: url(../images/samsung__galaxy-img4-dark.png);
+	}
+	
+	
+	.main__section-img-1-Xiaomi::before {
+		content: url(../images/xiaomi-img1-dark.png);
+	}
+	.main__section-img-2-Xiaomi::before {
+		content: url(../images/xiaomi-img2-dark.png);
+	}
+	.main__section-img-3-Xiaomi::before {
+		content: url(../images/xiaomi-img3-dark.png);
+	}
+	.main__section-img-4-Xiaomi::before {
+		content: url(../images/xiaomi-img4-dark.png);
+	}
+	.main__price-name {
+		color: var(--secondary-color);
+	}
+	.main__pice-price {
+		color: var(--secondary-color);
+	}
+	.main__price-title {
+		color: var(--secondary-color);
+	}
+	.main__price-list {
+		color: var(--secondary-color);
+	}
+	.main__price-cart {
+		border: white 1px solid;
+	}
+	.main__price-buy {
+		border: white 1px solid;
+	}
+}
+
+
+@media(max-width: 992px)  {
+	.header__nav-logo {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.header__item {
+		margin: 0 auto;
+	}
+	.header__contents-items {
+		flex-wrap: wrap;
+		margin: 0 auto;
+	}
+	.header__content-right {
+		display: block;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+	}
+	.carousel-indicators {
+		margin-bottom: -50px;
+	}
+	.header__content-right-link {
+		margin: 0 auto;
+		padding: 15px 0;
+		width: 50%;
+		justify-content: center;
+		margin-top: 20px;
+	}
+	.main__link {
+		font-size: 14px;
+		line-height: 53px;
+		padding: 0 22px;
+	}
+	
+	.form-control {
+		width: 100%;
+	}
+	.btn {
+		width: 100%;
+	}
+	.main__iPhone-price {
+		flex-direction: row !important;
+		justify-content: center;
+	}
+	.main__price-item {
+		margin-left: 20px;
+	}
+	.main__price-buy {
+		margin-left: 10px;
+		font-size: 14px !important;
+		padding: 0.5px 35px;
+	}
+	.main__price-cart {
+		font-size: 14px !important;
+		padding: 0 35px;
+	}
+}
+
+
+
+@media(max-width: 560px ) {
+	.header__link {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+	.header__item {
+		flex-wrap: wrap;
+	}
+	.btn {
+		margin-top: 10px;
+	}
+	.header__nav-link {
+		font-size: 14px;
+	}
+	.form-box {
+		flex-wrap: wrap;
+	}
+	.box-item {
+		margin: 0 auto;
+	}
+	.main__section-items-right-link {
+		display: flex;
+		justify-content: center;
+	}
+	.main__section-items {
+		flex-wrap: wrap;
+	}
+	.box-price {
+		justify-content: center;
+	}
+}
+
+
+@media(max-width: 375px) {
+	.header__content_right-title {
+		padding-left: 40px;
+	}
+	.navbar-collapse {
+		max-width: 500px;
+		width: 100%;
+	}
+	.main__link {
+		font-size: 9px;
+		line-height: 33px;
+		padding: 0px 15px;
+	}
+	.main__content {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.main__contents-img {
+		margin-top: 15px;
+	}
+	
+}
